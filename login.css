@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Login DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(collection-assets/values-dm-sans-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Login DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(collection-assets/values-dm-sans-700.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Login Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(collection-assets/values-manrope-600.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Login Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(collection-assets/values-manrope-800.ttf) format('truetype');
+}
+.login-page{color:#172033;font-family:'Login DM Sans',sans-serif}.login-main{background:#f9f8ff;padding:42px 20px 52px}.login-column{width:min(460px,100%);margin:auto}.login-card{padding:36px;border:1px solid #c5c9df;border-radius:16px;background:#fff;box-shadow:0 4px 14px #283a5d07}.login-title-row{display:flex;justify-content:space-between;align-items:center;gap:12px}.login-title-row h1{margin:0;font-family:'Login Manrope',sans-serif;font-weight:800;font-size:23px;line-height:30px;letter-spacing:-.8px}.login-title-row>span{padding:2px 9px;border-radius:99px;background:#e9edff;color:#0052de;font-size:11px;font-weight:700}.login-description{margin:6px 0 28px;font-size:14px;line-height:20px;color:#51566c}.login-field{margin-bottom:20px}.login-field label{display:block;font-size:14px;font-weight:700;line-height:20px;margin-bottom:6px}.login-label-row{display:flex;justify-content:space-between;align-items:baseline;gap:8px}.login-text-button{border:0;padding:0;background:none;color:#2864ff;font-size:13px;cursor:pointer}.login-input{height:42px;display:flex;align-items:center;gap:12px;padding:0 12px;border:1px solid #c3c8df;border-radius:8px}.login-input:focus-within{border-color:#2864ff;box-shadow:0 0 0 2px #2864ff18}.login-main svg{display:block;width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.login-input>svg{color:#7b8097}.login-input input{flex:1;width:100%;min-width:0;border:0;outline:none;background:none;color:#172033;font-size:14px;font-family:inherit}.login-input input::placeholder{color:#80849b}.password-toggle{display:flex;align-items:center;border:0;background:none;padding:0;color:#7b8097;cursor:pointer}.login-remember{display:flex;justify-content:space-between;align-items:center;margin:30px 0 28px;font-size:14px;color:#444b60}.login-remember label{display:flex;align-items:center;gap:9px}.login-remember input{width:18px;height:18px;accent-color:#2863ed;margin:0}.login-remember>span{color:#7b8097}.login-remember svg{width:18px;height:18px}.login-submit{display:flex;align-items:center;justify-content:center;gap:9px;min-height:44px;width:100%;padding:12px;border:0;border-radius:8px;background:#2863ed;color:#fff;font:700 14px 'Login DM Sans',sans-serif;cursor:pointer;box-shadow:0 3px 5px #2863ed20}.login-submit svg{width:18px;height:18px}.login-terms{font-size:12px;line-height:19px;text-align:center;color:#80849b;margin:26px 0 24px}.login-terms a{color:#172033;text-decoration:underline;text-underline-offset:2px}.login-divider{display:flex;align-items:center;gap:12px;margin-bottom:24px;color:#797e94;font-size:11px;line-height:14px;font-weight:700}.login-divider:before,.login-divider:after{content:'';height:1px;background:#d0d4e5;flex:1}.login-social{display:grid;grid-template-columns:1fr 1fr;gap:12px}.login-social button{display:flex;align-items:center;justify-content:center;gap:8px;min-height:38px;padding:8px;border:1px solid #c3c8df;border-radius:8px;background:#fff;color:#172033;font:500 13px 'Login DM Sans',sans-serif;cursor:pointer}.login-social svg{width:18px;height:18px;stroke:none}.login-otp{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:38px;margin-top:12px;border:1px solid #d5d9ed;border-radius:8px;background:#f2f3ff;color:#0051dc;font:700 12px 'Login DM Sans',sans-serif;cursor:pointer}.login-otp svg{width:18px;height:18px}.login-create{padding:24px;margin-top:24px;border:1px solid #c5c9df;border-radius:16px;background:#fff;text-align:center}.login-create p{font-size:14px;margin:0 0 12px;color:#51566c}.login-create button{width:100%;min-height:42px;padding:10px;border:1px solid #7a8097;border-radius:8px;background:white;color:#172033;font:700 14px 'Login DM Sans',sans-serif;cursor:pointer}.login-trust{display:flex;flex-wrap:wrap;justify-content:center;gap:22px 28px;margin-top:38px;color:#80849b;font-size:12px;line-height:18px}.login-trust span{display:flex;align-items:center;gap:6px}.login-trust span:last-child{flex-basis:100%;justify-content:center}.login-trust svg{width:16px;height:16px;color:#007252}.login-trust span:nth-child(2) svg{color:#0051dc}.login-page .footer{margin-top:0;font-family:'Login DM Sans',sans-serif}.login-page button:hover{filter:brightness(.97)}.login-page button:focus-visible,.login-page a:focus-visible{outline:2px solid #2864ff;outline-offset:3px}.login-status{color:#51566c;font-size:12px;line-height:18px;margin:12px 0 0}.login-status[hidden]{display:none}.login-page .topbar{font-family:'Login DM Sans',sans-serif}
+@media(max-width:520px){.login-main{padding:28px 16px 38px}.login-card{padding:26px 22px}.login-title-row h1{font-size:22px}.login-description{font-size:13px}.login-field label{font-size:13px}.login-input input{font-size:12px}.login-create{padding:22px}.login-trust{font-size:11px;gap:18px 16px}.login-text-button{font-size:12px}}
+
+@media(min-width:721px){.login-page .topbar{padding-left:max(34px,calc((100% - 1216px)/2));padding-right:max(34px,calc((100% - 1216px)/2))}.login-page .topbar .main-nav{justify-content:center}.login-page .footer-main{grid-template-columns:2.12fr 1fr 1fr 1fr}}
+
+.login-main,.signup-main{position:relative}
+.account-back-home{position:absolute;top:14px;left:max(24px,calc((100% - 1216px)/2));color:#2864ff;font-size:13px;font-weight:700}
+.login-create a{display:flex;align-items:center;justify-content:center;width:100%;min-height:42px;padding:10px;border:1px solid #7a8097;border-radius:8px;background:#fff;color:#172033;font:700 14px 'Login DM Sans',sans-serif}
+@media(max-width:520px){.login-main{padding-top:48px}.account-back-home{left:16px;top:16px}}
+
+@media(min-width:721px){.login-page .topbar .main-nav{width:100%;justify-content:center}}
+
+.login-page .topbar .main-nav{width:100%;justify-content:center;justify-content:safe center}

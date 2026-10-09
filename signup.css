@@ -1,0 +1,35 @@
+
+.signup-main{background:#f9f8ff;padding:84px 20px 64px}
+.signup-main .account-back-home{top:28px}
+.signup-card{width:min(540px,100%);margin:auto;padding:40px;border:1px solid #d5d8e8;border-radius:12px;background:#fff;box-shadow:0 4px 18px #273c5b05}
+.signup-security{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px;font-size:11px;line-height:16px}
+.signup-security>span,.signup-security>b{display:inline-flex;align-items:center;gap:5px}
+.signup-security>span{padding:3px 10px;border:1px solid #d6dcfa;border-radius:99px;color:#0052db;background:#e9edff;font-weight:700}
+.signup-security>b{color:#007251;font-weight:700}
+.signup-main svg{display:block;flex:none;width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.signup-security svg{width:13px;height:13px}
+.signup-card h1{font:800 34px/40px 'Login Manrope',sans-serif;color:#172033;letter-spacing:-1px;margin:0 0 8px}
+.signup-intro{margin:0 0 32px;color:#51566c;font-size:14px;line-height:24px}
+.signup-field{margin-bottom:20px}
+.signup-field>label{display:block;margin-bottom:6px;font-size:12px;line-height:18px;font-weight:700;color:#172033}
+.signup-field .login-input{height:42px;box-shadow:0 1px 2px #2539520a}
+.signup-field .login-input>svg{color:#4b5066;width:16px;height:16px}
+.signup-field .login-input input{font-size:14px}
+.signup-field small{display:flex;align-items:center;gap:6px;margin-top:4px;color:#51566c;font-size:11px;line-height:16px;font-weight:700;letter-spacing:.1px}
+.signup-field small svg{width:12px;height:12px;color:#007251}
+.signup-preferences{display:grid;gap:14px;margin:30px 0 22px}
+.signup-preferences label{display:flex;align-items:flex-start;gap:12px;font-size:12px;line-height:18px;color:#51566c}
+.signup-preferences input{width:17px;height:17px;flex:none;margin:1px 0 0;accent-color:#2863ed}
+.signup-main .login-submit{font-size:14px}
+.signup-terms{margin:24px 0 28px;text-align:center;font-size:11px;line-height:17px;font-weight:700;letter-spacing:.2px;color:#51566c}
+.signup-terms a{color:#0052db}
+.signup-main .login-divider{margin-bottom:28px}
+.signup-main .login-social svg{stroke:none}
+.signup-signin{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:32px;padding-top:24px;border-top:1px solid #dce0eb;font-size:12px;line-height:17px}
+.signup-signin b,.signup-signin span{display:block}
+.signup-signin b{font-weight:500;color:#172033}
+.signup-signin span{color:#51566c}
+.signup-signin>a{display:inline-flex;align-items:center;justify-content:center;flex:none;min-height:34px;padding:7px 16px;border:1px solid #c5c9df;border-radius:7px;background:#fff;color:#172033;font-weight:500}
+@media(max-width:580px){.signup-main{padding:64px 16px 42px}.signup-main .account-back-home{top:22px}.signup-card{padding:28px 22px}.signup-card h1{font-size:28px;line-height:34px}.signup-intro{font-size:13px;line-height:21px;margin-bottom:26px}.signup-field .login-input input{font-size:12px}.signup-security{font-size:10px}.signup-card h1 br{display:none}.signup-signin{gap:12px}.signup-signin>a{padding:7px 12px}}
+
+@media(min-width:581px){.signup-intro{margin-bottom:26px}.signup-field{margin-bottom:18px}}

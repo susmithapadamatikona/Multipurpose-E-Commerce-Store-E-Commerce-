@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f3f5ff">
+  <title>Customer Service | Stackly Help Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="customer-service.css">
+<script>
+  if (new URLSearchParams(window.location.search).get('embedded') === 'dashboard') {
+    document.documentElement.classList.add('dashboard-embedded-help');
+  }
+</script>
+<link rel="stylesheet" href="assets/vendor/aos/aos.css">
+<link rel="stylesheet" href="theme-effects.css">
+<link rel="stylesheet" href="responsive.css">
+</head>
+<body class="help-page">
+  <header class="topbar help-header">
+    <div class="header-main">
+      <a class="logo" href="index.html#top" aria-label="Stackly home"><img class="stackly-brand-logo" src="collection-assets/stackly-whitish_blue-logo.webp" alt="Stackly" width="320" height="128"></a>
+      <a class="delivery" href="shop.html"><span class="pin" aria-hidden="true">⌖</span><span>Deliver to<br><b>NY 10001</b></span></a>
+      <form class="search-wrap" action="shop.html" role="search"><label class="departments" for="help-department">All Departments <span aria-hidden="true">⌄</span></label><label class="search"><input id="help-department" name="q" aria-label="Search Stackly" placeholder="Search products, brands and more"><button class="search-submit" type="submit" aria-label="Search">⌕</button></label></form>
+      <button class="locale" type="button" aria-label="Language: English">◎ EN</button>
+      <a class="account" href="login.html" aria-label="Account and Lists"><span class="account-icon" aria-hidden="true">♙</span><span>Hello, Sign In<br><b>Account &amp; Lists</b></span></a>
+      <a class="returns" href="customer-service.html#order-help">Returns<br><b>Returns &amp; Orders</b></a>
+      <a class="cart" href="shop.html" aria-label="Shopping cart"><span class="cart-icon" aria-hidden="true">♧</span><b>Cart</b></a>
+    </div>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html#top">Home</a><a href="shop.html">Shop</a><a href="arrivals.html">New Arrivals</a><a href="collections.html">Collections</a><a href="offers.html">Offers</a><a class="active" href="customer-service.html" aria-current="page">Customer Service</a><a href="journals.html">Journals</a><a href="about.html">About</a>
+    </nav>
+  </header>
+  <main class="help-main">
+    <section class="help-hero" aria-labelledby="help-title">
+      <span class="help-kicker"><span aria-hidden="true">♧</span> OMNICART GUARANTEED SUPPORT · 24/7 RESOLUTION</span>
+      <h1 id="help-title">How Can We Help?</h1>
+      <p>Find answers, track orders, or get instant help from our dedicated support team 24/7.</p>
+      <form class="help-search" role="search" id="help-search"><span aria-hidden="true">⌕</span><input id="help-query" type="search" placeholder="Search for help by keyword, order number, or topic (e.g. returns, tracking)" aria-label="Search help topics"><button type="submit">Search Help</button></form>
+      <div class="quick-search"><b>Popular:</b><a href="#order-help">Track my order</a><a href="#returns">Return an item</a><a href="#order-help">Cancel my order</a><a href="#payment">Payment help</a><a href="#shipping">Change delivery address</a><a href="#returns">Warranty claim</a></div>
+    </section>
+
+    <section class="help-section" id="quick-help">
+      <div class="help-heading"><div><span class="section-kicker">QUICK SELF-SERVICE HUB</span><h2>Get help with the essentials</h2><p>Select a topic to find answers and manage your orders.</p></div><span class="availability">● Help is available 24/7</span></div>
+      <div class="help-topic-grid">
+        <a class="topic-card" href="#order-help"><i>↗</i><b>Track Order</b><p>Track real-time shipment updates and ETA.</p><strong>Track Now →</strong></a>
+        <a class="topic-card" href="#returns"><i>▣</i><b>Returns &amp; Refunds</b><p>Start a return, print a label, or check refund status.</p><strong>Start Return →</strong></a>
+        <a class="topic-card" href="#shipping"><i>◷</i><b>Shipping &amp; Delivery</b><p>Delivery speeds, fees, and courier tracking.</p><strong>View Delivery Options →</strong></a>
+        <a class="topic-card" href="#order-help"><i>⊗</i><b>Cancel Order</b><p>Cancel recently placed items before dispatch.</p><strong>Cancel Items →</strong></a>
+        <a class="topic-card" href="#payment"><i>▤</i><b>Payment &amp; Billing</b><p>Invoices, payment issues, and refunds.</p><strong>Billing Help →</strong></a>
+        <a class="topic-card" href="#account"><i>♙</i><b>Account Help</b><p>Password reset, addresses, and 2FA login.</p><strong>Manage Account →</strong></a>
+        <a class="topic-card" href="#resources"><i>◇</i><b>Product Support</b><p>Authenticity, manuals, and warranties.</p><strong>Get Support →</strong></a>
+        <a class="topic-card" href="#contact"><i>☏</i><b>Contact Us</b><p>Live chat, phone, and WhatsApp concierge.</p><strong>Reach Out →</strong></a>
+      </div>
+    </section>
+
+    <section class="order-panel" id="order-help">
+      <div class="panel-heading"><div><span class="section-kicker">SELF-SERVICE CONSOLE</span><h2>Recent Order Support &amp; Self-Service</h2><p>Manage your active orders without waiting on an agent.</p></div><a class="outline-button" href="shop.html">View All My Orders</a></div>
+      <div class="order-summary"><div class="order-icon">▣</div><div><b>Order #OMNI-94821</b><span class="status-pill">Active Shipment</span><small>Placed October 2, 2026 · 2 items · Total $184.95</small></div><div class="delivery-status"><b>In Transit · Expected Delivery Tomorrow by 4:00 PM</b><small>Carrier: FedEx Express · Tracking #FX-98204-884</small></div></div>
+      <div class="tracking-line"><div class="track-step done"><i>✓</i><b>Placed</b><small>Oct 2, 9:14 AM</small></div><div class="track-step done"><i>✓</i><b>Confirmed</b><small>Oct 2, 10:30 AM</small></div><div class="track-step current"><i>↗</i><b>Shipped</b><small>Oct 4, 2:00 PM</small></div><div class="track-step"><i>○</i><b>Out for Delivery</b><small>Est. Tomorrow</small></div></div>
+      <div class="order-actions"><a href="#shipping">⌖ <span><b>Track Order</b><small>Check live status</small></span></a><a href="#order-help">◷ <span><b>View Order Status</b><small>Full item breakdown</small></span></a><a href="#resources">⇩ <span><b>Download Invoice</b><small>Instant PDF receipt</small></span></a><a href="#order-help">⊗ <span><b>Cancel an Order</b><small>One-click eligible</small></span></a><a href="#returns">↩ <span><b>Start a Return</b><small>Within 30 days</small></span></a></div>
+    </section>
+
+    <section class="help-section" id="shipping"><div class="help-heading"><div><span class="section-kicker">SHIPPING &amp; DELIVERY</span><h2>Shipping &amp; Delivery Guidelines</h2><p>Timelines, delivery methods, and address adjustments.</p></div></div><div class="info-grid three-col">
+      <article class="info-card"><i>◷</i><h3>Delivery Times</h3><p>Standard delivery spans 2–5 business days across the continental US. OmniCart Prime members enjoy Guaranteed 1-Day shipping on orders over $40.</p></article>
+      <article class="info-card"><i>▣</i><h3>Shipping Charges</h3><p>Enjoy complimentary free shipping on all orders totaling $49 or more. Non-qualifying smaller orders have a flat $4.99 fee regardless of package weight.</p></article>
+      <article class="info-card"><i>⚡</i><h3>Same-Day Delivery</h3><p>Available in 45 premier metropolitan areas for qualifying orders placed before 2:00 PM local time. Look for the “Same-Day” badge on product pages.</p></article>
+      <article class="info-card"><i>⌖</i><h3>International Shipping</h3><p>We deliver seamlessly to 120+ countries. All import costs, duties, and local taxes are transparently calculated and prepaid at checkout with no arrival fees.</p></article>
+      <article class="info-card"><i>↻</i><h3>Delivery Issues</h3><p>Missed your delivery or package placed in an unsafe location? Report it instantly within our self-service portal to request a secure attempt or neighbor drop.</p></article>
+      <article class="info-card"><i>◇</i><h3>Change Delivery Address</h3><p>Route packages or stop a shipment before dispatch. For secure warehousing, once dispatched we redirect to a verified pickup location through tracking.</p></article>
+    </div><a class="text-action" href="#faq">Learn More About Shipping Policies &amp; Fulfillment Rules →</a></section>
+
+    <section class="returns-panel" id="returns"><div class="returns-head"><div><span class="section-kicker">PEACE OF MIND GUARANTEE</span><h2>Hassle-Free 30-Day Returns &amp; Instant Refunds</h2><p>Return any eligible item within the pre-paid label and immediate credit options.</p></div><a class="button-primary" href="#contact">Start a Return or Exchange</a></div><div class="return-steps"><article><i>1</i><b>Return an Item</b><p>Generate a prepaid UPS code or print a drop-off QR for free. 30 days of post-purchase access.</p><strong>Start request →</strong></article><article><i>2</i><b>Exchange an Item</b><p>Swap for a different size, color, or product instantly—no exchange processing fees.</p><strong>Instant exchange →</strong></article><article><i>3</i><b>Refund Status</b><p>Choose instant OmniCart Store credit or 3–5 day bank transfer, sent directly to the original payment card.</p><strong>Track credit →</strong></article><article><i>4</i><b>Return Eligibility</b><p>Review clear policies on sealed electronics, hygiene products, beauty items, and designer gear.</p><strong>30-day window →</strong></article><article><i>5</i><b>Damaged / Wrong</b><p>Fast-track claims with photo upload plus zero-cost pickup for items received damaged, incorrect, or missing.</p><strong>Photo-first claims →</strong></article></div></section>
+
+    <section class="help-section" id="payment"><div class="help-heading"><div><span class="section-kicker">PAYMENT, BILLING &amp; TAX INVOICES</span><h2>Payment, Billing &amp; Tax Invoices</h2><p>Resolve checkout, payment, and tax documentation questions.</p></div></div><div class="info-grid four-col">
+      <article class="info-card"><i>▣</i><h3>Payment Methods</h3><p>We accept Visa, Mastercard, AMEX, Discover, Apple Pay, Google Pay, PayPal, and flexible installment plans via Klarna and Affirm.</p></article><article class="info-card"><i>◉</i><h3>Failed Payments</h3><p>If your transaction is declined, verify billing ZIP match, security 3DS codes, or check with your issuer. Retry with Apple Pay or another card.</p></article><article class="info-card"><i>♧</i><h3>Refund Tracking</h3><p>Automatic confirmation emails issue the moment a refund initiates. Standard banks take 2–4 business days; credit cards may take up to 7 days.</p></article><article class="info-card"><i>◇</i><h3>Coupons &amp; Promo Codes</h3><p>Enter coupons at step 2 of checkout. Ensure minimum order values are met. Note that vendor coupons generally cannot stack with site-wide flash promotions.</p></article><article class="info-card"><i>▧</i><h3>Gift Cards &amp; Store Credit</h3><p>Check 16-digit gift card balances, redeem digital vouchers, and apply available OmniCart wallet credits directly with a single click at checkout.</p></article><article class="info-card"><i>▤</i><h3>Billing Questions &amp; Tax Invoices</h3><p>Retrieve official VAT, GST invoices for corporate accounting, tax deductions, and download our automated monthly statements in CSV/PDF formats.</p></article>
+    </div></section>
+
+    <section class="help-section" id="account"><div class="help-heading"><div><span class="section-kicker">ACCOUNT MANAGEMENT &amp; SECURITY CONTROLS</span><h2>Keep your account safe and up to date</h2><p>Protect your profile, personal information, and payment settings.</p></div></div><div class="info-grid four-col">
+      <article class="info-card"><i>♙</i><h3>Sign-in Issues</h3><p>Locked out or not receiving login verification codes? Authenticate using registered SMS backup numbers or verified secondary email addresses.</p></article><article class="info-card"><i>◇</i><h3>Reset Password</h3><p>Request an encrypted instant recovery link. For maximum safety, password links expire automatically after 15 minutes of non-usage.</p></article><article class="info-card"><i>▧</i><h3>Update Profile &amp; Alerts</h3><p>Toggle shipment WhatsApp alerts, promo newsletter preferences, delivery email push, and edit your primary contact phone number.</p></article><article class="info-card"><i>⌖</i><h3>Addresses &amp; Payment Vault</h3><p>Store multiple residential or office addresses. Securely edit encrypted credit cards, and manage encrypted PCI-DSS compliant saved payment options.</p></article><article class="info-card"><i>♡</i><h3>Wishlist &amp; Saved Items</h3><p>Organize personal wishlists into public or private boards, set availability alerts, and share or curate lists with family and friends.</p></article><article class="info-card"><i>◉</i><h3>Account Security &amp; 2FA</h3><p>Strengthen your profile by enabling Two-Factor Authentication via Google Authenticator or SMS and remotely terminate active sessions across devices.</p></article>
+    </div></section>
+
+    <section class="faq-panel" id="faq"><div class="faq-title"><span class="section-kicker">HELP CENTER</span><h2>Frequently Asked Questions</h2><p>Quick answers to common questions about orders, payments, and delivery.</p><div class="faq-tabs"><a class="selected" href="#faq">All</a><a href="#order-help">Orders</a><a href="#shipping">Shipping</a><a href="#returns">Returns</a><a href="#payment">Payments</a><a href="#account">Account</a><a href="#resources">Product</a></div></div><div class="faq-list">
+      <details open><summary>How do I track my OmniCart package in real time?<span>⌄</span></summary><p>Every shipped order includes an automated FedEx, UPS, or USPS tracking link accessible on your Recent Orders page. You’ll also receive milestone SMS updates when your parcel is out for delivery.</p></details><details><summary>What is the return window and are returns free?<span>⌄</span></summary><p>Most items can be returned within 30 days. Eligible returns include a prepaid label or QR drop-off code at no cost.</p></details><details><summary>Can I cancel or modify an order after clicking place order?<span>⌄</span></summary><p>You can cancel or update an order while it is still being prepared. Open Recent Orders and choose the eligible item to see available actions.</p></details><details><summary>How does the OmniCart 30-Day Price Match Shield work?<span>⌄</span></summary><p>If an eligible item’s price drops within 30 days of purchase, contact support with your order number and the current listing for a review.</p></details><details><summary>What should I do if my payment failed but my card was charged?<span>⌄</span></summary><p>Some banks show a temporary authorization while a payment is pending. It normally clears automatically; contact us if it remains after seven business days.</p></details><details><summary>Are international duties and customs fees included at checkout?<span>⌄</span></summary><p>Where available, duties and taxes are calculated at checkout and displayed before you place your order.</p></details>
+    </div></section>
+
+    <section class="help-section" id="contact"><div class="help-heading"><div><span class="section-kicker">MULTI-CHANNEL CONCIERGE</span><h2>Contact OmniCart Support</h2><p>Connect with a real specialist across your favorite channel.</p></div><span class="availability">Average satisfaction score: <b>98.4%</b> based on 45,000 chats</span></div><div class="contact-grid"><article><span class="contact-status">Online 24/7</span><i>▣</i><h3>Live Chat Support</h3><p>Available now with average reply speed under one minute for fastest resolution.</p><a href="mailto:support@stackly.example?subject=Live%20chat%20request">Start Live Chat →</a></article><article><span class="contact-status muted-status">8am–11pm EST</span><i>⌕</i><h3>Toll-Free Phone</h3><p>Dial 1-800-OMNICART (1-800-666-4278) for dedicated human assistance.</p><a href="tel:18006664278">Call Us Now →</a></article><article><span class="contact-status muted-status">~2h Reply</span><i>✉</i><h3>Email Concierge</h3><p>Send your inquiry directly to a specialized team for detailed responses.</p><a href="mailto:support@stackly.example">Send an Email →</a></article><article><span class="contact-status">Instant Mobile</span><i>▧</i><h3>WhatsApp Concierge</h3><p>Get instant order checks, delivery photos, and direct chat on mobile.</p><a href="https://wa.me/18006664278">Open WhatsApp →</a></article></div></section>
+
+    <section class="human-help"><div class="human-copy"><span class="section-kicker">HUMAN-FIRST SUPPORT EXPERIENCE</span><h2>We’re Here to Help, Every Step of the Way.</h2><p>Whether you have questions about a product before buying, need technical configuration support, or want assistance after delivery, our real human support team is ready to assist with empathy and speed.</p><div><a class="button-primary" href="#contact">Contact Support</a><a class="outline-button" href="#resources">Explore Knowledge Base</a></div></div><img src="https://cdn.shopify.com/s/files/1/0272/5448/9159/files/cdi-customer_2048x2048.jpg?v=1605603144" alt="Customer service representative wearing a headset at her desk with colleagues behind her"></section>
+
+    <section class="help-section" id="resources"><div class="help-heading"><div><span class="section-kicker">HELPFUL SHOPPING RESOURCES</span><h2>Helpful Shopping Resources</h2><p>Handy guides, sizing calculations, and buyer protection policies.</p></div></div><div class="info-grid three-col"><article class="info-card"><i>♧</i><h3>Buying Guides</h3><p>Explore curated expert reviews and side-by-side spec comparisons for electronics, home appliances, and daily essentials.</p></article><article class="info-card"><i>▤</i><h3>Size &amp; Fit Guide</h3><p>Interactive measurements, shoe conversion tables, and international apparel charts to guarantee the perfect fit on the first try.</p></article><article class="info-card"><i>◇</i><h3>Product Care &amp; Longevity</h3><p>Tips for keeping your electronics calibrated, leather goods conditioned, and garments looking brand-new season after season.</p></article><article class="info-card"><i>♧</i><h3>Gift Guide &amp; Registry</h3><p>Curated gift sets with optional gift wrapping, confidential digital gift receipts, and customized wedding or birthday registries.</p></article><article class="info-card"><i>▣</i><h3>Store Policies &amp; Terms</h3><p>Our comprehensive customer privacy policy, conditions of marketplace transactions, and the 100% genuine product guarantee.</p></article><article class="info-card"><i>✓</i><h3>Safety &amp; Warranty Hub</h3><p>One-click manufacturer warranty registration, extended protection plans, and official consumer product safety updates.</p></article></div></section>
+
+    <section class="feedback-panel"><b>Was this Help Center page useful to you today?</b><p>We use your feedback to continuously improve our help center.</p><div><button type="button" data-feedback="yes">☺ Yes, found what I needed</button><button type="button" data-feedback="no">☹ No, need more details</button><span class="feedback-thanks" aria-live="polite"></span></div></section>
+    <section class="help-cta"><div><h2>Need a Little More Help?</h2><p>Our concierge team is standing by to resolve any issue promptly with 24/7 dedicated support.</p></div><div><a href="#contact">Chat With Us</a><a href="mailto:support@stackly.example">Contact Support</a></div></section>
+  </main>
+  <footer class="footer help-footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="footer-logo" href="index.html#top" aria-label="Stackly home"><img class="stackly-brand-logo" src="collection-assets/stackly-whitish_blue-logo.webp" alt="Stackly" width="320" height="128"></a>
+        <p>Stackly Marketplace connects millions of shoppers to top verified<br class="footer-desktop-break"> brands with algorithmic price matching, rapid fulfillment, and trusted<br class="footer-desktop-break"> buyer protection.</p>
+        <div class="footer-socials" aria-label="Social media">
+          <a href="404.html" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm2.3 6.1h-1.5c-.5 0-.6.2-.6.7v1.3h2.1l-.3 2h-1.8v5.1h-2.2v-5.1H8.3v-2h1.7V8.6c0-1.8.9-2.7 2.9-2.7h1.4v2.2Z" fill="currentColor"/></svg></a>
+          <a href="404.html" aria-label="Twitter"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 6.1a7.5 7.5 0 0 1-2.1.6 3.7 3.7 0 0 0 1.6-2 7.4 7.4 0 0 1-2.4.9 3.7 3.7 0 0 0-6.4 2.5c0 .3 0 .6.1.9a10.5 10.5 0 0 1-7.6-3.9 3.7 3.7 0 0 0 1.1 4.9 3.7 3.7 0 0 1-1.7-.5v.1c0 1.8 1.3 3.3 3 3.7a3.8 3.8 0 0 1-1.7.1 3.7 3.7 0 0 0 3.5 2.6A7.5 7.5 0 0 1 3 17.5 10.6 10.6 0 0 0 19.3 8c0-.2 0-.3-.1-.5A7.6 7.6 0 0 0 21 6.1Z" fill="currentColor"/></svg></a>
+          <a href="404.html" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8ZM10 15.2V8.8l5.5 3.2-5.5 3.2Z" fill="currentColor"/></svg></a>
+          <a href="404.html" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.8" r="1.1" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-column"><h3>Categories</h3><a href="shop.html">Electronics</a><a href="shop.html">Furniture</a><a href="shop.html">Women Wear</a><a href="shop.html">Home Essentials</a></div>
+      <div class="footer-column"><h3>Journal</h3><a href="index.html#trending">Trending News</a><a href="index.html#social">Socials</a><a href="index.html#blogs">Blogs</a><a href="index.html#advertise">Advertise Your Products</a></div>
+      <div class="footer-column"><h3>Let Us Help You</h3><a href="login.html">Your Account</a><a href="#shipping">Shipping Rates &amp; Policies</a><a href="#returns">Returns &amp; Replacements</a><a href="customer-service.html" aria-current="page">Customer Service</a></div>
+    </div>
+    <div class="footer-legal"><nav aria-label="Legal and company links"><a href="index.html#about">Get to Know Us</a><a href="shop.html">Make Money with Us</a><a href="offers.html">Payment Products</a><a href="customer-service.html">Let Us Help You</a><a href="404.html" data-error-route="true">Privacy Notice</a><a href="404.html" data-error-route="true">Conditions of Use</a><a href="customer-service.html">Interest-Based Ads</a></nav><small>&copy; 2024 Stackly Marketplace, Inc. All rights reserved.</small></div>
+  </footer>
+  <script>
+    const helpForm = document.getElementById('help-search');
+    helpForm.addEventListener('submit', event => {
+      event.preventDefault();
+      const query = document.getElementById('help-query').value.trim().toLowerCase();
+      if (!query) return;
+      const targets = [...document.querySelectorAll('.help-topic-grid a, .info-card, .faq-list details, .topic-card')];
+      const match = targets.find(item => item.textContent.toLowerCase().includes(query));
+      if (match) { match.scrollIntoView({behavior:'smooth',block:'center'}); match.classList.add('search-match'); setTimeout(() => match.classList.remove('search-match'), 1800); }
+      else document.getElementById('faq').scrollIntoView({behavior:'smooth',block:'start'});
+    });
+    document.querySelectorAll('[data-feedback]').forEach(button => button.addEventListener('click', () => {
+      const status = button.parentElement.querySelector('.feedback-thanks');
+      status.textContent = 'Thanks for helping us improve.';
+      button.parentElement.querySelectorAll('button').forEach(item => item.disabled = true);
+    }));
+  </script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="theme-effects.js"></script>
+<script src="responsive.js"></script>
+<script src="error-routes.js"></script>
+</body>
+</html>
